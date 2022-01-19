@@ -1,0 +1,1 @@
+alert('Click "Click here" if you think this is a SCAM.')
