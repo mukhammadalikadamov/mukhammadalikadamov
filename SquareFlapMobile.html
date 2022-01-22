@@ -22,6 +22,21 @@
 }
 </style>
 
+<style>
+.button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+
 <title>SquareFlapMobile</title>
 
 <style>
@@ -148,14 +163,15 @@ function clearmove() {
     myGamePiece.speedY = 0; 
 }
 </script>
+
+<button onClick="window.location.reload();" class="button2">RESTART</button>
+<a href="instruct.html" class="button2">INSTRUCTIONS</a>
+
 <div style="text-align:center;width:1500px;">
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" class="button">UP</button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()" class="button">LEFT</button>
   <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()" class="button">RIGHT</button><br><br>
   <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()" class="button">DOWN</button>
 </div>
-<button onClick="window.location.reload();" class="button">RESTART</button>
-<br>
-<a href="instruct.html" class="button">INSTRUCTIONS</a>
 </body>
 </html>
