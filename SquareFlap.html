@@ -148,13 +148,15 @@ function clearmove() {
     myGamePiece.speedY = 0; 
 }
 </script>
-<div style="text-align:center;width:480px;">
+
+<button onClick="window.location.reload();" class="button">RESTART</button>
+<a href="instruct.html" target="_blank" class="button">INSTRUCTIONS</a>
+
+<div style="text-align:center;width:1500px;">
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" class="button">UP</button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()" class="button">LEFT</button>
   <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()" class="button">RIGHT</button><br><br>
   <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()" class="button">DOWN</button>
 </div>
-<center><button onClick="window.location.reload();" class="button">RESTART</button></center>
-<center><a href="instruct.html" target="_blank" class="button">INSTRUCTIONS</a></center>
 </body>
 </html>
