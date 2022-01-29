@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background: #151D21;
+    color: white;
+    font-family: 'Roboto black';
+}
+
+.section1 {
+    font-family: 'Roboto black';
+    font-size: 48px;
+}
+
+.section2 {
+    font-family: 'Roboto';
+    font-size: 48px;
+}
+
+.section3 {
+    font-family: 'Roboto thin';
+    font-size: 48px;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+body {
+	background:  black;
+}
