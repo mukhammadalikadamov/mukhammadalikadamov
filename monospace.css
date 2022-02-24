@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Courier|Monospace');
+
+body {
+    background: #151D21;
+    color: white;
+    font-family: 'Courier';
+}
+
+.section1 {
+    font-family: 'Courier';
+    font-size: 48px;
+}
+
+.section2 {
+    font-family: 'Courier';
+    font-size: 48px;
+}
+
+.section3 {
+    font-family: 'Courier';
+    font-size: 48px;
+}
+
+body {
+    font-family: 'Courier';
+}
