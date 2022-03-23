@@ -1,10 +1,12 @@
 <HTML>
-    <head>
-    	<link rel="shortcut icon" type="image/png" href='mwmk.png'>
 
-        <link rel="stylesheet" href="orangewhite.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href='mwmk.png'>
 
-        <style>
+    <link rel="stylesheet" href="orangewhite.css">
+
+    <style>
         .button {
             background-color: #4CAF50;
             border: none;
@@ -17,74 +19,156 @@
             margin: 4px 2px;
             cursor: pointer;
         }
-        </style>
+    </style>
+
+    <style>
+        .flex-container {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            -ms-box-orient: horizontal;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+        }
+
+        .flex-item {
+            width: 300px;
+            height: 250px;
+            position: relative;
+            margin: 3px;
+            border: 1px #fff solid;
+            overflow: hidden;
+        }
+
+        .flex-item img {
+            width: 100%;
+            transition: transform .2s;
+            /* Animation */
+        }
+
+        .flex-item img:hover {
+            transform: scale(1.5);
+        }
+
+        .atext a:visited,
+        .atext a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .atext {
+            background-color: #d6d6d6;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            /* opacity: 50%; */
+        }
+    </style>
 
     <title>MoreWebsitesMK</title>
 
-    </head>
-    <body>
+</head>
 
-    	<p>
+<body>
 
-    	<center><h1>More websites:</h1></center>
+    <p>
 
-        </p>
+        <center>
+            <h1>More websites:</h1>
+        </center>
 
-        <a href="https://www.youtube.com/user/azamrajabov" target="_blank">
+    </p>
 
-            <img src="MKhero.jpg" alt="Channel" style="border-radius: 50%;">
-        
-        </a>
+    <a href="https://www.youtube.com/user/azamrajabov" target="_blank">
+        <img src="MKhero.jpg" alt="Channel" style="border-radius: 50%;">
+    </a>
 
-    	<br>
+    <ul class="flex-container">
+        <li class="flex-item">
+            <a href="FreeSomethings.html" target="_blank">
+                <img src="icon.png">
+                <div class="atext">FreeSomethings(practice)</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="learnabMK.html" target="_blank">
+                <img src="A.png">
+                <div class="atext">About MKhero</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="speak.html" target="_blank">
+                <img
+                    src="star.jpeg">
+                <div class="atext">Speak!</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="https://mail.google.com/mail/u/0/#search/mukhammadalikadamov%40gmail.com" target="_blank">
+            <img src="https://cdn2.downdetector.com/static/uploads/logo/image21.png">
+            <div class="atext">Contact MKhero</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="SquareFlap.html" target="_blank">
+            <img src="b.png">
+            <div class="atext">SquareFlap</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="SquareFlapMobile.html" target="_blank">
+            <img src="b.png">
+            <div class="atext">SquareFlap(Mobile)</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="videos.html" target="_blank">
+                <img src="MKhero2.jpg">
+                <div class="atext">VideosMK</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="ApkFlower.html" target="_blank">
+                <img src="iconapk.png">
+                <div class="atext">ApkFlower</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="learnabrcMK.html" target="_blank">
+                <img src="rc.png">
+                <div class="atext">AboutMe(Rubiks cube)
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="https://social-unlock.com/2GoC3" target="_blank">
+                <img src="krunkerhacks.png">
+                <div class="atext">KrunkerHacks</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="LDZMK.html" target="_blank">
+                <img src="Texas.png">
+                <div class="atext">Lorenzo De Zavala</div>
+            </a>
+        </li>
+        <li class="flex-item">
+            <a href="MinecraftFree.html" target="_blank">
+                <img
+                    src="minecraft.png">
+                <div class="atext">FreeMinecraft</div>
+            </a>
+        </li>
+    </ul>
+    <footer>&copy; 2022 MoreWebsitesFS</footer>
 
-    	<center><a href="FreeSomethings.html" class="button" target="_blank">FreeSomethings(practice)</a></center>
+</body>
 
-    	<br>
-
-    	<center><a href="learnabMK.html" class="button" target="_blank">About MKhero</a></center>
-
-    	<br>
-
-        <center><a href="speak.html" class="button" target="_blank">Speak</a></center>
-
-    	<br>
-
-    	<center><a href="https://mail.google.com/mail/u/0/#search/mukhammadalikadamov%40gmail.com" target="_blank" class="button">Contact MKhero</a></center>
-
-        <br>
-
-        <center><a href="SquareFlap.html" target="_blank" class="button">SquareFlap</a></center>
-
-        <br>
-
-        <center><a href="SquareFlapMobile.html" class="button">SquareFlap(Mobile)</a></center>
-        
-        <br>
-
-        <center><a href="videos.html" target="blank" class="button">VideosMK</a></center>
-
-        <br>
-
-        <center><a href="ApkFlower.html" target="_blank" class="button">ApkFlower</a></center>
-
-        <br>
-
-        <center><a href="learnabrcMK.html" target="_blank" class="button">AboutMe(Rubiks cube)</a></center>
-
-        <br>
-
-        <center><a href="https://social-unlock.com/2GoC3" target="_blank" class="button">KrunkerHacks</a></center>
-
-        <br>
-
-        <center><a href="LDZMK.html" target="_blank" class="button">Lorenzo De Zavala</a></center>
-        
-        <br>
-
-        <center><a href="MinecraftFree.html" target="_blank" class="button">FreeMinecraft</a></center>
-
-        <footer>&copy; 2022 MoreWebsitesFS</footer>
-
-    </body>
 </HTML>
