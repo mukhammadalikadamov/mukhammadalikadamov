@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @mukhammadalikadamov
 - 👀 I’m interested in programming.
 - 🌱 I’m currently learning coding/programming.
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on making websites.
 
 <!---
 mukhammadalikadamov/mukhammadalikadamov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
